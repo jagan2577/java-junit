@@ -10,7 +10,7 @@ pipeline {
                 git 'https://github.com/jagan2577/java-junit.git'
                 // sh './mvnw clean compile'
                  bat '.\\mvnw clean compile'
-                bat '.\\npm version
+                bat '.\\npm version'
             }
         }
         stage('Test') {
